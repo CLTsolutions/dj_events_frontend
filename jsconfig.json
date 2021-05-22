@@ -1,6 +1,9 @@
+// have to restart dev server whenever create or add to this file
 {
   "compilerOptions": {
     "baseUrl": ".",
+    // each folder want to create
+    // /* is anything in folder
     "paths": {
       "@/components/*": ["components/*"],
       "@/styles/*": ["styles/*"],

@@ -4,6 +4,7 @@ import Layout from '@/components/Layout'
 export default function AboutPage() {
   return (
     // can change title on individual pages (while still importing rest of metadata)
+    // can pass keywords and description, too
     <Layout title='About DJ Events'>
       {/* <Link href='/'>Home</Link> */}
       <h1>About</h1>

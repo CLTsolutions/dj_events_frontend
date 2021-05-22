@@ -1,3 +1,4 @@
+// allows us to use any slug after events/
 const { events } = require('./data.json')
 
 export default (req, res) => {

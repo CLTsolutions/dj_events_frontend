@@ -24,6 +24,8 @@ export default function HomePage({ events }) {
 }
 
 // can be above or below component
+// can still use 'useEffect' (like in reg React), but have additional data fetching
+//- properties when initially visit page
 // 'server side' runs every time go to page
 // 'static' makes request at build time and then will build out static pages
 // if someone updates event, won't see because it ran at build time (revalidated)

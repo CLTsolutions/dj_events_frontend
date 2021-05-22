@@ -1,4 +1,5 @@
-// layout component prevents us from having to put below in every page
+// layout component prevents us from having to put metadata in every page
+// head comes from nextjs
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Header from './Header'
@@ -6,7 +7,7 @@ import Footer from './Footer'
 import Showcase from './Showcase'
 import styles from '@/styles/Layout.module.css'
 
-// children because layout wraps page content (children is whatever is wrapped))
+// passing children because layout wraps page content (children is whatever is wrapped))
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter()
 
@@ -18,6 +19,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name='keywords' content={keywords} />
       </Head>
 
+      {/* want header and footer on every page so putting in layout */}
       <Header />
 
       {/* Only want image on homepage so using router */}
