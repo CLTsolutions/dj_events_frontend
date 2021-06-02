@@ -2,8 +2,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    // paths in an object where we create aliases
     // each folder want to create
-    // /* is anything in folder
+    // /* is anything in that folder
     "paths": {
       "@/components/*": ["components/*"],
       "@/styles/*": ["styles/*"],

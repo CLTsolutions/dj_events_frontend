@@ -1,4 +1,4 @@
-// this is automatically shown as 404 page
+// create 404 under pages, and this automatically becomes a 404 page
 import { FaExclamationTriangle } from 'react-icons/fa'
 import Layout from '@/components/Layout'
 import styles from '@/styles/404.module.css'

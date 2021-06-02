@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        {/* If want to add styling, has to be on an a tag no link tag */}
+        {/* If want to add styling, has to be on an a tag not link tag */}
         <Link href='/'>
           <a>DJ Events</a>
         </Link>

@@ -22,7 +22,8 @@ export default function Layout({ title, keywords, description, children }) {
       {/* want header and footer on every page so putting in layout */}
       <Header />
 
-      {/* Only want image on homepage so using router */}
+      {/* Only want image on homepage so using router (has pathname on it) */}
+      {/* If there is no else (no ternary), can use && */}
       {router.pathname === '/' && <Showcase />}
 
       <div className={styles.container}>{children}</div>
@@ -32,6 +33,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 // below is React (nothing to do with Next itself)
+// default props since we won't pass description or keyword on every page.
 Layout.defaultProps = {
   title: 'DJ Events | Find the hottest parties',
   description: 'Find the latest DJ and other musical events.',

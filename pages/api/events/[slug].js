@@ -2,7 +2,7 @@
 const { events } = require('./data.json')
 
 export default (req, res) => {
-  // evt gives arr with single event slug
+  // evt gives arr with single event slug (to not change anything later with Strapi)
   const evt = events.filter(ev => ev.slug === req.query.slug)
 
   if (req.method === 'GET') {

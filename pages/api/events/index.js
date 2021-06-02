@@ -6,7 +6,8 @@ export default (req, res) => {
   if (req.method === 'GET') {
     res.status(200).json(events)
   } else {
-    // 'Allow' is only a get request but could set to other methods
+    // allow is an arr of methods which are allowed
+    // allow is currently only a get request but could set to other methods
     res.setHeader('Allow', ['GET'])
     res.status(405).json({ message: `Method ${req.method} is not allowed.` })
   }
