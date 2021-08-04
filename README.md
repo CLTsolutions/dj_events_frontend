@@ -49,7 +49,7 @@
 - Git Hooks with Husky
 - Deploy to Vercel
 
-#### Prerequisites:
+## Prerequisites:
 
 - JavaScript basics and modern JavaScript features like arrow functions, restructuring, the spread operator
 - The basics of React such as components, props, and JSX
