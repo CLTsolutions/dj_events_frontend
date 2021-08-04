@@ -1,3 +1,5 @@
+// files inside folder gives same route as if weren't nested inside folder
+// - url is still /events (instead of /events/index)
 // events homepage (url: /events)
 import Layout from '@/components/Layout'
 import EventItem from '@/components/EventItem'

@@ -1,3 +1,4 @@
+// this file allows us to use relative paths
 // have to restart dev server whenever create or add to this file
 {
   "compilerOptions": {

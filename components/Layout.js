@@ -1,10 +1,14 @@
-// layout component prevents us from having to put metadata in every page
-// head comes from nextjs
+/*============================
+* LAYOUT FOR META DATA (SEO)*
+=============================*/
+// layout component prevents us from having to put metadata on every page
+// head comes from nextjs (for SEO)
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Header from './Header'
 import Footer from './Footer'
 import Showcase from './Showcase'
+//
 import styles from '@/styles/Layout.module.css'
 
 // passing children because layout wraps page content (children is whatever is wrapped))
@@ -13,6 +17,7 @@ export default function Layout({ title, keywords, description, children }) {
 
   return (
     <div>
+      {/* for SEO */}
       <Head>
         <title>{title}</title>
         <meta name='description' content={description} />
@@ -32,6 +37,7 @@ export default function Layout({ title, keywords, description, children }) {
   )
 }
 
+// setting default props here
 // below is React (nothing to do with Next itself)
 // default props since we won't pass description or keyword on every page.
 Layout.defaultProps = {

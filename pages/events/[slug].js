@@ -1,3 +1,4 @@
+// SINGLE EVENTS PAGE
 // this file for /events/slug
 // brackets for dynamic routing ([] and whatever params you want)
 import { FaPencilAlt, FaTimes } from 'react-icons/fa'

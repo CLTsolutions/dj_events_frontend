@@ -1,5 +1,7 @@
 // index.js is homepage
+// link is similar to link in react-router-dom
 import Link from 'next/link'
+// layout is for metadata (seo)
 import Layout from '@/components/Layout'
 import EventItem from '@/components/EventItem'
 import { API_URL } from '@/config/index'
