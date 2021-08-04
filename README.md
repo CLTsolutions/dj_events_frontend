@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DJ Events (Frontend)
 
-## Getting Started
+## [Next.js Course](https://www.udemy.com/course/nextjs-dev-to-deployment/) by [Brad Traversy](https://github.com/bradtraversy) - 10 hours
 
-First, run the development server:
+> _The course project is a Next.js website for DJ Events. This site uses Strapi as a backend._
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Course Overview:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Build a music event application from start to finish
+- Learn the fundamentals of NextJS
+- Create a backend using Strapi CMS
+- JWT Authentication / HttpOnly Cookie Storage
+- Pagination, search, image uploading with Cloudinary
+- Build a static blog with pagination, search & categories using Markdown
+- Deploy to production using Vercel
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!-- add photo thumbnail here -->
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Detailed Course Content (as found in Udemy course description):
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### _Fundamentals:_
 
-## Learn More
+- Pages & Routing
+- Data Fetching Methods (getServerSideProps, getStaticProps, getStaticPaths)
+- Custom API Routes
+- Static Generation
+- CSS Styling
+- Image Optimization
 
-To learn more about Next.js, take a look at the following resources:
+### _Main Project Coursework_
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Strapi CMS
+- Authentication with JWT (JSON Web Tokens)
+- Authorization and access control
+- Storing HttpOnly Cookies on the server
+- Pagination, search filters, etc
+- Image uploading with Cloudinary integration
+- Deploying to Vercel and Heroku
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### _Second Project (Devspace)_
 
-## Deploy on Vercel
+> _Next.js can also be used to create "static websites". The second project is a static blog called Devspace_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- TailwindCSS Integration
+- Static Data Fetching/Generation
+- Create, Fetch & Parse Markdown with Frontmatter
+- Search Functionality with API route/Serverless Function
+- Post Caching
+- Git Hooks with Husky
+- Deploy to Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Prerequisites:
+
+- JavaScript basics and modern JavaScript features like arrow functions, restructuring, the spread operator
+- The basics of React such as components, props, and JSX
